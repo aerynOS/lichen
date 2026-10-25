@@ -1,5 +1,9 @@
 # lichen
 
+## This project is being deprecated
+
+The successor project is [lichen-installer](https://github.com/aerynOS/lichen-installer)
+
 ## Overview
 An experimental text based installer run from the command line to install AerynOS.
 
