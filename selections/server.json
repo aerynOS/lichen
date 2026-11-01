@@ -2,7 +2,7 @@
   "name": "server",
   "summary": "Headless Install - Intended for servers that don't need graphical drivers or sound support (EXPERTS ONLY)",
   "description": "Are you sure? Like, REALLY sure?",
-  "display": true,
+  "display": false,
   "priority": 100,
   "depends": [
     "base"

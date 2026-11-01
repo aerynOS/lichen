@@ -2,7 +2,7 @@
   "name": "windowmanager",
   "summary": "Console-only - graphics/sound drivers installed but no WM/DE installed (EXPERTS ONLY)",
   "description": "Are you sure? Like, REALLY sure?",
-  "display": true,
+  "display": false,
   "priority": 90,
   "depends": [
     "base-desktop"
