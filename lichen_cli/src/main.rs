@@ -235,7 +235,7 @@ fn main() -> color_eyre::Result<()> {
             and format the partition manually if you want a separate /home partition
     "};
     cliclack::log::warning(format!(
-        "{} This is an alpha quality AerynOS installer.\n\n{}",
+        "{} This is an alpha quality aerynOS installer.\n\n{}",
         style("Warning:").bold(),
         partition_detection_warning
     ))?;
@@ -246,7 +246,7 @@ fn main() -> color_eyre::Result<()> {
         cliclack::confirm("Have you set up partitions according to the above requirements?").interact()?;
     ensure!(should_continue, "User chose to abort before detecting partitions.");
 
-    cliclack::intro(style("Install AerynOS").bold())?;
+    cliclack::intro(style("Install aerynOS").bold())?;
 
     // Test selection management
     let selections = selections::Manager::new().with_groups(selections!());
@@ -393,7 +393,7 @@ fn main() -> color_eyre::Result<()> {
     );
     let installer_success = format!(
         "🎉 🥳 Successfully installed {}! Reboot now to start using it!",
-        style("AerynOS").bold()
+        style("aerynOS").bold()
     );
     multi.clear()?;
     println!("\n{home_note}\n{installer_success}\n");
