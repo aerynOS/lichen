@@ -1,0 +1,28 @@
+{
+  "name": "budgie",
+  "summary": "Budgie Desktop",
+  "description": "A feature-rich, modern desktop designed to keep out the way of the user",
+  "depends": ["base-desktop"],
+  "display": true,
+  "priority": 40,
+  "required": [
+    "binary(bluejay)",
+    "binary(budgie-control-center)",
+    "binary(dolphin)",
+    "binary(dragon)",
+    "binary(elisa)",
+    "binary(gwenview)",
+    "binary(kalk)",
+    "binary(konsole)",
+    "binary(kwrite)",
+    "binary(okular)",
+    "binary(partitionmanager)",
+    "binary(plasma-discover)",
+    "binary(plasma-systemmonitor)",
+    "binary(sddm)",
+    "binary(wdisplays)",
+    "budgie-backgrounds",
+    "pkgset-aeryn-budgie-minimal",
+    "pkgset-aeryn-budgie-recommended"
+  ]
+}
