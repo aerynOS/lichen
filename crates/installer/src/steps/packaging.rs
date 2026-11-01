@@ -44,6 +44,8 @@ impl<'a> AddRepo {
             "-p",
         ]);
         cmd.arg(self.priority.to_string());
+        cmd.arg("--comment");
+        cmd.arg("...");
         cmd.arg("-y");
 
         // Run
@@ -73,7 +75,8 @@ impl<'a> InstallPackages {
         let mut cmd = Command::new("moss");
         cmd.arg("-D");
         cmd.arg(context.root());
-        cmd.arg("install");
+        cmd.arg("pkg");
+        cmd.arg("add");
         cmd.args(&self.names);
         cmd.arg("-y");
 
