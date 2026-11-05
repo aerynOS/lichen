@@ -5,11 +5,11 @@
 The successor project is [lichen-installer](https://github.com/aerynOS/lichen-installer)
 
 ## Overview
-An experimental text based installer run from the command line to install AerynOS.
+An experimental text based installer run from the command line to install aerynOS.
 
-`lichen` has been developed to a minimum viable level to allow for installing AerynOS by experienced users. Prior to installation, users will need to format their disk with a GPT partition table with an esp partition, xbootldr partition and a root partition. Instructions for this can be found on our documentation [website](https://aerynos.dev/faq/installation).
+`lichen` has been developed to a minimum viable level to allow for installing aerynOS by experienced users. Prior to installation, users will need to format their disk with a GPT partition table with an esp partition, xbootldr partition and a root partition. Instructions for this can be found on our documentation [website](https://aerynos.com/faq/installation).
 
-The AerynOS team are currently focusing on [infrastructure](https://github.com/AerynOS/infra) and [os-tooling](https://github.com/AerynOS/os-tools) development so `lichen` is currently in maintenance mode. There are however eventual plans to build upon `lichen` to provide a more user-friendly experience including a graphical user interface. In the meantime, we are still accepting contributions to help improve the codebase.
+The aerynOS team are currently focusing on [infrastructure](https://github.com/aerynOS/infra) and [os-tooling](https://github.com/aerynOS/os-tools) development so `lichen` is currently in maintenance mode. There are however eventual plans to build upon `lichen` to provide a more user-friendly experience including a graphical user interface. In the meantime, we are still accepting contributions to help improve the codebase.
 
 ## Build & Test
 
